@@ -4,7 +4,6 @@ import confetti from "canvas-confetti";
 import LoveLetter from "../components/LoveLetter";
 import { useNavigate } from "react-router-dom";
 
-
 function BirthdayPage() {
   const [cut, setCut] = useState(false);
   const [text, setText] = useState("");
@@ -88,7 +87,7 @@ function BirthdayPage() {
 
       {/* 💌 Welcome */}
       <section className="welcome">
-        <h1>Happy Birthday My Love ❤️</h1>
+        <h1>Happy Birthday Savika ❤️</h1>
         <p>
           Today is special… because the most beautiful person in my life was
           born 💖
@@ -109,16 +108,16 @@ function BirthdayPage() {
             <p>
               Niku gurthunda…? 💭❤️ First time nenu ninu kalisina aa moment na
               life lo chala special ✨ Lulu Mall bayata ninu kalisina aa kshanam
-              ippatiki na kalla mundu clear ga untundi 👀💫 Nuvu white-pink
-              shade dress lo 🤍🌸 simple ga, elegant ga unde style 💕 Spectacles
-              petukoni, chala graceful ga nilchunnavu 👓✨ Nenu ninu
-              chusinappudu na mind lo okkate thought 💓 “Ilaanti ammai kuda
-              untara… intha andham ga?” 😍 Aa okka look lone na heart silent
-              ayipoyindi 💖 Aa smile 😊, aa eyes 👁️✨ cheppaleni feeling okati
-              na lopala puttindi 💫 Aa roju naku teliyaledu… 😌 aa ammai na life
-              lo inta important avuthundi ani, okaroju na pellam 👰‍♀️, na life 🌍,
-              na happiness 💞 avuthundi ani. Ipudu alochiste… 🤍 aa first look
-              lone na destiny naku signal ichindi emo ani anipistundi 🫶✨
+              ippatiki na kalla mundu undi 👀💫 Nuvu white-pink shade dress lo
+              🤍🌸 simple ga, cute ga bale unav anipinchav chudagane 💕
+              Spectacles petukoni, chala bagunnav 👓✨ Nenu ninu chusinappudu na
+              mind lo okkate thought 💓 “Ilaanti ammai kuda untara… intha andham
+              ga?” 😍 Aa okka look lone na heart silent ayipoyindi 💖 Aa smile
+              😊, aa eyes 👁️✨ cheppaleni feeling okati na lopala puttindi 💫 Aa
+              roju naku teliyaledu… 😌 aa ammai na life lo inta important
+              avuthundi ani, okaroju na pellam 👰‍♀️, na life 🌍, na happiness 💞
+              avuthundi ani. Ipudu alochiste… 🤍 aa first look lone na destiny
+              naku signal ichindi emo ani anipistundi 🫶✨
             </p>
           </div>
 
@@ -126,23 +125,24 @@ function BirthdayPage() {
             <div className="date">💬 Aug 2024</div>
             <b>Our first conversation that I never wanted to end.</b>
             <p>
-              Mana first conversation niku gurthunda…? 💭💖 Aa roju mottam
-              idaram flirt cheskuntu, jokes veskuntu ala matladukunnam 😄✨
-              Appudu idhi anthaa joke laga anipinchindi… kani aa matalu, aa
-              navvulu lopala chala deep ga touch chesayi 💓 Aa time lo asalu
-              uhinchaledu kada… “Ide na future husband… na mogudu, na priyudu
-              avuthadu” ani 😌❤️ Kalalo kuda anipinchaledu haha 😄 Kani chusava…
-              destiny manani ela lead chesindo 🫶 Appatlo manam bale chat chese
-              vallam 📱💬 Asalu lovers laga matladukunnam ani andaru links petti
-              tease chese varu 😍 Nuvu istam unattu navvadam 😊 aa smile
-              chusinapudu na heart automatic ga melt ayipoyindi 💖 Aa navvule…
-              na madilo prema chigurinchela chesayi 🌱❤️ Nitho unte chala
-              baguntundi ani anipinchindi 🤍 Nitho unte santosham ga untanemo
-              ani na heart cheppindi ✨ Netho chat chesthunappudu time
-              teliyaledu ⏳💫 Na problems anni marchipoyi, calm ga happy ga feel
-              ayye danini 💕 Anduke… nenu ninu nijam gane premincha 💖 Starting
-              lo joke gane start chesanu 😅 kani appudu teliyaledu… ide na life
-              lo nijam ayipothundi ani, nuve na forever avuthavu ani 🫶❤️
+              Mana first conversation niku gurthunda…? 💭💖 manam flirting tho
+              start cheskunam mana chatting gani talks gani idaram flirt
+              cheskuntu, jokes veskuntu ala matladukunevalam 😄✨ Appudu adhi
+              anthaa joke gane start chesam kani aa matalu, aa navvulu lopala
+              chala deep ga touch chesayi 💓 Aa time lo asalu uhinchaledu kada…
+              “videy na future husband… na mogudu, na priyudu avuthadu” ani 😌❤️
+              Kalalo kuda anipinchaledu kada haha 😄 Kani chusava… destiny
+              manani ela lead chesindo 🫶 Appatlo manam bale chat chese vallam
+              📱💬 Asalu lovers laga matladukunnam andaru links petti tease
+              chese varu 😍 Nuvu istam unattu navvadam 😊 aa smile chusinapudu
+              na heart automatic ga melt ayipoyindi 💖 Aa navvule… na manasulo
+              prema chigurinchela chesindi 🌱❤️ Nitho unte chala baguntundi ani
+              anipinchindi 🤍 Nitho unte santosham ga untanemo ani na heart feel
+              aindi ✨ Netho chat chesthunappudu time teliyaledu ⏳💫 Na
+              problems anni marchipoyi, calm ga happy ga feel ayye vadini 💕
+              Anduke… nenu ninu nijam gane premincha 💖 Starting lo joke gane
+              start cheskunam 😅 kani appudu teliyaledu… ide na life lo nijam
+              ayipothundi ani, nuve na forever avuthavu ani 🫶❤️
             </p>
           </div>
 
@@ -151,16 +151,16 @@ function BirthdayPage() {
             <b>Our Happy Moments</b>
             <p>
               Niku gurthunda…? 💭❤️ Manam first time idaram kalisi bayataki
-              vellina aa kshanalu. Aa roju date ani anukoni, Nehru Zoological
-              Park ki kalisi vellam 🐾🌿 Aa roju ippatiki na heart lo fresh ga
-              untundi. Manam idaram kalisi nadichina aa moments, matladina aa
-              navvulu 😊✨ Aa kshanalu anni chala special ga anipinchayi. Aa
-              roju nenu chala santosham ga unnanu 💕 Endhukante… nuvu naatho
-              unnavu. Manam idaram ey place ki vellina, aa roju adhi na life lo
-              happiest moment anukunna 🤍 Taravata oka vishayam ardham ayyindi…
-              Happiness place lo ledu 🌍❌ Na pakana unna manishi lo undi ❤️
-              Nitho unte chalu… **I am very happy** 😊💖 Ee nijam aa roju nenu
-              telusukunna 🫶
+              vellina aa kshanalu. Aa roju dating laga anukoni velam , Nehru
+              Zoological Park ki kalisi vellam 🐾🌿 Aa roju ippatiki na heart lo
+              fresh ga untundi. Manam idaram kalisi nadichina aa moments,
+              matladina aa matalu aa navvulu 😊✨ Aa kshanalu anni chala special
+              ga anipinchayi. Aa roju nenu chala santosham ga unnanu 💕
+              Endhukante… nuvu naatho unnavu. Manam idaram ey place ki vellina,
+              aa roju adhi na life lo happiest moment anukunna 🤍 Taravata oka
+              vishayam ardham ayyindi… Happiness place lo ledu 🌍❌ Na pakana
+              unna manishi lo undi ❤️ Nitho unte chalu… **I am very happy** 😊💖
+              Ee nijam aa roju nenu telusukunna 🫶
             </p>
           </div>
         </div>
@@ -184,6 +184,16 @@ function BirthdayPage() {
           <img src="/img12.jpeg" alt="memory" />
           <img src="/img13.jpeg" alt="memory" />
           <img src="/img14.jpeg" alt="memory" />
+          <img src="/img15.jpeg" alt="memory" />
+          <img src="/img16.jpeg" alt="memory" />
+          <img src="/img17.jpeg" alt="memory" />
+          <img src="/img18.jpeg" alt="memory" />
+          <img src="/img19.jpeg" alt="memory" />
+          <img src="/img20.jpeg" alt="memory" />
+          <img src="/img21.jpeg" alt="memory" />
+          <img src="/img22.jpeg" alt="memory" />
+          <img src="/img23.jpeg" alt="memory" />
+       
         </div>
       </section>
 

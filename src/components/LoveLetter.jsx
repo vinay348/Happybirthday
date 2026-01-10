@@ -7,16 +7,16 @@ My Love,
 Ninnu entha premistunnano cheppadaniki words saripovu.
 Na heart nunchi vachina feeling idhi.
 
-Prathi sari netho matladinappudu na face lo smile automatic ga vastundi. Ninnu chusinappudu, netho unnapudu, na life lo unna anni tensions, problems anni marchipothanu. Nuvvu na pakkana unte, na mind calm avuthundi, na heart happy ga feel avuthundi. Nuvvu na happiness, na peace.
+Prathi sari netho matladinappudu na face lo smile automatic ga vastundi. Ninnu chusinappudu, netho unnapudu, na life lo unna anni tensions, problems anni marchipothanu. Nuvvu na pakkana unte, na mind calm and happy ga untundi, na heart happy ga feel avuthundi. Nuve na happiness, na peace.
 
-Life lo e situation vachina, e problem vachina, manam rendu kalisi face cheddam ani na full heart tho chepthunna. Neeku problem vachinappudu, neeku support kavalsinappudu, nenu epudu nee pakkane untanu. Nee cheyi viduvanu, neeku alone ga feel avvanivvanu.
+Life lo ey situation vachina, ey problem vachina, manam iddaram kalisi face cheddam ani na  heart full tho chepthunna. Neeku problem vachinappudu, neeku support kavalsinappudu, nenu epudu nithoney untanu. Nee cheyi viduvanu, neeku alone ga feel avvanivvanu.
 
-Please na tho ee 100 years bear cheyyi. Na life motham netho ne spend cheyyali ani na heart korukuntundi. Netho unte na life complete ayinattu feel avuthundi. Netho undadam valla nenu nijamga happy ga untanu.
+Please nanu ey 100 years barinchu. Na life motham netho ne spend cheyyali ani na manasu korukuntundi. Netho unte na life chala happy ga vuthundi. Netho undadam valla nenu nijamga happy ga untanu.
 
-Nee smile ante naaku chala ishtam — adhi na darkest days lo kuda light la untundi. Nee innocence, nee cute behavior, nee caring nature, nannu nuvvu ardham chesukune vidhanam — anni naaku chala chala ishtam. Nuvvu unna vidhanam lo prathi chinna vishayam kuda na heart ni touch chestundi.
+Nee smile ante naaku chala ishtam — adhi na darkest days lo kuda light la untundi. Nee innocence, nee cute behavior, nee caring nature, nannu nuvvu ardham chesukune vidhanam — anni naaku chala ante chala istam. Ni life lo prathi chinna vishayam kuda na heart ni touch chestundi.
 
-Nuvvu na girlfriend maatrame kaadu — nuvvu na happiness, na strength, na life lo na forever wish.
-Happy Birthday, na bangaram.
+Nuvvu na girlfriend maatrame kaadu — nuvvu na happiness, na strength, na life lo na forever nuvu.
+Happy Birthday,  bangaram.
 Naa life loki vachinanduku, nannu ila premisthunnanduku thank you.
 
 Forever nee vaadini ❤️

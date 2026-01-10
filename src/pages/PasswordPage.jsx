@@ -12,21 +12,27 @@ function PasswordPage() {
   const handleUnlock = () => {
     if (input === PASSWORD) {
       navigate("/countdown");
-    } else {
+    } 
+    else if(count==0){ 
       setError("Hmm… try again, love 😉");
         setcount(count+1);
+        setInput("");
     }
-    if(count==3){
-      setError("Are you sure you remember our special date? 😢");
+    else if(count==1){
+      setError("Almost there, babe! 🌟")   
+      setcount(count+1)
+      setInput("");
     }
-
-    if(count==4){
-      setError("Give it another shot, darling! 💖 i will give hint in the next attemp hehe");
+    else if(count==2){
+      setError("The password length is 8 💖")   
+      setcount(count+1)
+      setInput("");
     }
-
-    if(count==5){
-      setError("Password Length is 8 😘");
+    else {
+      setError("Don't give up ,try again! ❤️‍🔥");
+      setInput("");
     }
+  
 
   };
 

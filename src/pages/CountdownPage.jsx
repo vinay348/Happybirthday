@@ -75,7 +75,7 @@ function CountdownPage() {
       ) : (
         <>
           <h1 className="happy">It’s finally here… 🎉</h1>
-          <h2>Happy Birthday My Love ❤️</h2>
+          <h2>Happy Birthday Sadvika ❤️</h2>
 
           <button
             className="enter-btn"
