@@ -14,10 +14,16 @@ function BirthdayPage() {
   const fullMessage =
     "I may not say it every day, but you mean everything to me. Your smile makes my bad days better, and your presence makes my life complete. I promise to stand by you, today and always ❤️";
 
-  useEffect(() => {
-    audioRef.current = new Audio("/music.mp3");
-    audioRef.current.loop = true;
-  }, []);
+  const playMusic = () => {
+    if (!audioRef.current) {
+      audioRef.current = new Audio("/music.mp3");
+      audioRef.current.loop = true;
+    }
+
+    audioRef.current
+      .play()
+      .catch((err) => console.log("Audio play blocked:", err));
+  };
 
   // ✨ Smooth typewriter
   useEffect(() => {
@@ -87,12 +93,12 @@ function BirthdayPage() {
 
       {/* 💌 Welcome */}
       <section className="welcome">
-        <h1>Happy Birthday Savika ❤️</h1>
+        <h1>Happy Birthday Sadvika ❤️</h1>
         <p>
           Today is special… because the most beautiful person in my life was
           born 💖
         </p>
-        <button className="music-btn" onClick={() => audioRef.current.play()}>
+        <button className="music-btn" onClick={playMusic}>
           Play Music 🎵
         </button>
       </section>
@@ -193,7 +199,6 @@ function BirthdayPage() {
           <img src="/img21.jpeg" alt="memory" />
           <img src="/img22.jpeg" alt="memory" />
           <img src="/img23.jpeg" alt="memory" />
-       
         </div>
       </section>
 

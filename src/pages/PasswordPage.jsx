@@ -13,6 +13,9 @@ function PasswordPage() {
     if (input === PASSWORD) {
       navigate("/countdown");
     } 
+    if(input.length===0){
+      setError("Rey pandi type chey ra emanna 💖");
+    }
     else if(count==0){ 
       setError("Hmm… try again, love 😉");
         setcount(count+1);
