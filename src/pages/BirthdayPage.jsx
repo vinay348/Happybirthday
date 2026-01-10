@@ -245,7 +245,7 @@ function BirthdayPage() {
 
       <section className="love-letter">
         <h2>A Letter Just for You 💌</h2>
-        <LoveLetter />
+       {/*  <LoveLetter /> */}
       </section>
 
       <button className="see-wishes-btn" onClick={() => navigate("/wishes")}>
