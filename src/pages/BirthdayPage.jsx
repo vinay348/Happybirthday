@@ -125,7 +125,7 @@ function BirthdayPage() {
             <div className="date">💫 Aug 2024</div>
             <b>The day I met you — and everything changed.</b>
             <p>
-              Niku gurthunda…? 💭❤️ First time nenu ninu kalisina aa moment na
+            {/*  Niku gurthunda…? 💭❤️ First time nenu ninu kalisina aa moment na
               life lo chala special ✨ Lulu Mall bayata ninu kalisina aa kshanam
               ippatiki na kalla mundu undi 👀💫 Nuvu white-pink shade dress lo
               🤍🌸 simple ga, cute ga bale unav anipinchav chudagane 💕
@@ -137,6 +137,7 @@ function BirthdayPage() {
               avuthundi ani, okaroju na pellam 👰‍♀️, na life 🌍, na happiness 💞
               avuthundi ani. Ipudu alochiste… 🤍 aa first look lone na destiny
               naku signal ichindi emo ani anipistundi 🫶✨
+              */}
             </p>
           </div>
 
@@ -144,7 +145,7 @@ function BirthdayPage() {
             <div className="date">💬 Aug 2024</div>
             <b>Our first conversation that I never wanted to end.</b>
             <p>
-              Mana first conversation niku gurthunda…? 💭💖 manam flirting tho
+              {/* Mana first conversation niku gurthunda…? 💭💖 manam flirting tho
               start cheskunam mana chatting gani talks gani idaram flirt
               cheskuntu, jokes veskuntu ala matladukunevalam 😄✨ Appudu adhi
               anthaa joke gane start chesam kani aa matalu, aa navvulu lopala
@@ -162,6 +163,7 @@ function BirthdayPage() {
               Anduke… nenu ninu nijam gane premincha 💖 Starting lo joke gane
               start cheskunam 😅 kani appudu teliyaledu… ide na life lo nijam
               ayipothundi ani, nuve na forever avuthavu ani 🫶❤️
+              */}
             </p>
           </div>
 
@@ -169,6 +171,7 @@ function BirthdayPage() {
             <div className="date">😊 22 Dec 2024</div>
             <b>Our Happy Moments</b>
             <p>
+              {/*
               Niku gurthunda…? 💭❤️ Manam first time idaram kalisi bayataki
               vellina aa kshanalu. Aa roju dating laga anukoni velam , Nehru
               Zoological Park ki kalisi vellam 🐾🌿 Aa roju ippatiki na heart lo
@@ -180,6 +183,7 @@ function BirthdayPage() {
               vishayam ardham ayyindi… Happiness place lo ledu 🌍❌ Na pakana
               unna manishi lo undi ❤️ Nitho unte chalu… **I am very happy** 😊💖
               Ee nijam aa roju nenu telusukunna 🫶
+              */}
             </p>
           </div>
         </div>
@@ -218,7 +222,7 @@ function BirthdayPage() {
       {/* 💌 Message */}
       <section className="message">
         <h2>A Message From My Heart 💌</h2>
-        <p>{text}</p>
+        <p>{/* {text} */}</p>
       </section>
 
       {/* 🎂 Cake */}
