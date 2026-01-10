@@ -222,7 +222,7 @@ function BirthdayPage() {
       {/* 💌 Message */}
       <section className="message">
         <h2>A Message From My Heart 💌</h2>
-        <p>{/* {text} */}</p>
+       {/*  <p>{ {text} }</p> */}
       </section>
 
       {/* 🎂 Cake */}
