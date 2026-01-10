@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 function BirthdayPage() {
   const [cut, setCut] = useState(false);
   const [text, setText] = useState("");
+  const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
 
   const navigate = useNavigate();
@@ -14,15 +15,22 @@ function BirthdayPage() {
   const fullMessage =
     "I may not say it every day, but you mean everything to me. Your smile makes my bad days better, and your presence makes my life complete. I promise to stand by you, today and always ❤️";
 
-  const playMusic = () => {
-    if (!audioRef.current) {
-      audioRef.current = new Audio("/music.mp3");
+  const toggleMusic = () => {
+    if (!audioRef.current) return;
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
       audioRef.current.loop = true;
+      audioRef.current
+        .play()
+        .then(() => {
+          setIsPlaying(true);
+        })
+        .catch((err) => {
+          console.log("Audio play blocked:", err);
+        });
     }
-
-    audioRef.current
-      .play()
-      .catch((err) => console.log("Audio play blocked:", err));
   };
 
   // ✨ Smooth typewriter
@@ -98,9 +106,14 @@ function BirthdayPage() {
           Today is special… because the most beautiful person in my life was
           born 💖
         </p>
-        <button className="music-btn" onClick={playMusic}>
-          Play Music 🎵
-        </button>
+        <div>
+          {" "}
+          {/* Keep audio element in DOM */}
+          <audio ref={audioRef} src="/music.mp3" preload="auto" />
+          <button className="music-btn" onClick={toggleMusic}>
+            {isPlaying ? "Stop Music ✋" : "Play Music 🎵"}
+          </button>
+        </div>
       </section>
 
       {/* 📖 Our Story */}

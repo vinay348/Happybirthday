@@ -3,6 +3,7 @@ import PasswordPage from "./pages/PasswordPage";
 import CountdownPage from "./pages/CountdownPage";
 import BirthdayPage from "./pages/BirthdayPage";
 import WishesPage from "./pages/WishesPage";
+import FinalVideoPage from "./pages/FinalVideoPage";
 
 function Router() {
   return (
@@ -12,6 +13,8 @@ function Router() {
         <Route path="/countdown" element={<CountdownPage />} />
         <Route path="/birthday" element={<BirthdayPage />} />
         <Route path="/wishes" element={<WishesPage />} />
+        <Route path="/forever" element={<FinalVideoPage />} />
+
 
 
       </Routes>

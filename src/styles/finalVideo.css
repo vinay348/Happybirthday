@@ -1,0 +1,30 @@
+.final-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.final-video {
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+  margin-top: 30px;
+}
+
+.final-quote {
+  margin-top: 40px;
+  font-size: 24px;
+  font-family: "Dancing Script", cursive;
+  animation: fadeIn 2s ease;
+  white-space: pre-line;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
