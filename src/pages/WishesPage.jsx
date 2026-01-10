@@ -1,5 +1,6 @@
 import "../styles/wishes.css";
 
+
 function WishesPage() {
   return (
     <div className="wishes-container">
@@ -10,7 +11,7 @@ function WishesPage() {
 
       <div className="videos">
         <video controls>
-          <source src="/wishes/friend1.mp4" type="video/mp4" />
+          <source src="/videos/friend1.mp4" type="video/mp4" />
         </video>
 
         <video controls>
