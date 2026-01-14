@@ -1,2 +1,2 @@
-export const PASSWORD = "15012025";
-export const BIRTHDAY_DATE = "2026-01-09T19:06:00";
+export const PASSWORD = "22112024";
+export const BIRTHDAY_DATE = "2026-01-15T00:00:00";

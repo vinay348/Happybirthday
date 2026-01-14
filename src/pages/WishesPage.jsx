@@ -37,6 +37,9 @@ function WishesPage() {
         </video><video controls>
           <source src="/videos/friend9.mp4" type="video/mp4" />
         </video>
+          <video controls>
+          <source src="/videos/friend10.mp4" type="video/mp4" />
+        </video>
       </div>
 
       <p className="ending">You are loved beyond words ❤️</p>
