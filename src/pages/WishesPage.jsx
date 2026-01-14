@@ -18,11 +18,24 @@ function WishesPage() {
         </video>
 
         <video controls>
-          <source src="/wishes/friend2.mp4" type="video/mp4" />
+          <source src="/videos/friend2.mp4" type="video/mp4" />
         </video>
 
         <video controls>
-          <source src="/wishes/friend3.mp4" type="video/mp4" />
+          <source src="/videos/friend3.mp4" type="video/mp4" />
+        </video>
+        <video controls>
+          <source src="/videos/friend4.mp4" type="video/mp4" />
+        </video><video controls>
+          <source src="/videos/friend5.mp4" type="video/mp4" />
+        </video><video controls>
+          <source src="/videos/friend6.mp4" type="video/mp4" />
+        </video><video controls>
+          <source src="/videos/friend7.mp4" type="video/mp4" />
+        </video><video controls>
+          <source src="/videos/friend8.mp4" type="video/mp4" />
+        </video><video controls>
+          <source src="/videos/friend9.mp4" type="video/mp4" />
         </video>
       </div>
 

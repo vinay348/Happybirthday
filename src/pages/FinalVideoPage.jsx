@@ -10,11 +10,11 @@ function FinalVideoPage() {
 
       <video
         controls
-        autoPlay
+        
         onEnded={() => setShowQuote(true)}
         className="final-video"
       >
-        <source src="/final-special-video.mp4" type="video/mp4" />
+        <source src="/specialvideo/video1.mp4" type="video/mp4" />
         Your browser does not support video.
       </video>
 

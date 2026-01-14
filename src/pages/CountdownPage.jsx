@@ -79,9 +79,9 @@ function CountdownPage() {
 
           <button
             className="enter-btn"
-            onClick={() => navigate("/birthday")}
+            onClick={() => navigate("/birthday", { state: { autoPlay: true } })}
           >
-            Enter Your Surprise 🎁
+            Click for a Surprise 🎁
           </button>
         </>
       )}

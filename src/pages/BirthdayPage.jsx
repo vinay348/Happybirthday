@@ -3,34 +3,45 @@ import { useState, useEffect, useRef } from "react";
 import confetti from "canvas-confetti";
 import LoveLetter from "../components/LoveLetter";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function BirthdayPage() {
   const [cut, setCut] = useState(false);
   const [text, setText] = useState("");
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const audioRef = useRef(null);
-
+    const location = useLocation();
   const navigate = useNavigate();
+
+
 
   const fullMessage =
     "I may not say it every day, but you mean everything to me. Your smile makes my bad days better, and your presence makes my life complete. I promise to stand by you, today and always ❤️";
 
-  const toggleMusic = () => {
-    if (!audioRef.current) return;
-    if (isPlaying) {
-      audioRef.current.pause();
-      setIsPlaying(false);
-    } else {
-      audioRef.current.loop = true;
+useEffect(() => {
+    audioRef.current = new Audio("/music.mp3");
+    audioRef.current.loop = true;
+
+    if (location.state?.autoPlay) {
       audioRef.current
         .play()
-        .then(() => {
-          setIsPlaying(true);
-        })
+        .then(() => setIsPlaying(true))
         .catch((err) => {
-          console.log("Audio play blocked:", err);
+          console.log("Autoplay blocked:", err);
         });
     }
+
+    return () => {
+      audioRef.current.pause();
+      audioRef.current = null;
+    };
+  }, [location.state]);
+
+  // Stop music
+  const stopMusic = () => {
+    if (!audioRef.current) return;
+    audioRef.current.pause();
+    setIsPlaying(false);
   };
 
   // ✨ Smooth typewriter
@@ -109,10 +120,11 @@ function BirthdayPage() {
         <div>
           {" "}
           {/* Keep audio element in DOM */}
-          <audio ref={audioRef} src="/music.mp3" preload="auto" />
-          <button className="music-btn" onClick={toggleMusic}>
-            {isPlaying ? "Stop Music ✋" : "Play Music 🎵"}
-          </button>
+        
+        <button className="music-btn" onClick={stopMusic}>
+          Stop Music ✋
+        </button>
+      
         </div>
       </section>
 
@@ -125,7 +137,7 @@ function BirthdayPage() {
             <div className="date">💫 Aug 2024</div>
             <b>The day I met you — and everything changed.</b>
             <p>
-            {/*  Niku gurthunda…? 💭❤️ First time nenu ninu kalisina aa moment na
+             Niku gurthunda…? 💭❤️ First time nenu ninu kalisina aa moment na
               life lo chala special ✨ Lulu Mall bayata ninu kalisina aa kshanam
               ippatiki na kalla mundu undi 👀💫 Nuvu white-pink shade dress lo
               🤍🌸 simple ga, cute ga bale unav anipinchav chudagane 💕
@@ -137,7 +149,7 @@ function BirthdayPage() {
               avuthundi ani, okaroju na pellam 👰‍♀️, na life 🌍, na happiness 💞
               avuthundi ani. Ipudu alochiste… 🤍 aa first look lone na destiny
               naku signal ichindi emo ani anipistundi 🫶✨
-              */}
+            
             </p>
           </div>
 
@@ -145,7 +157,7 @@ function BirthdayPage() {
             <div className="date">💬 Aug 2024</div>
             <b>Our first conversation that I never wanted to end.</b>
             <p>
-              {/* Mana first conversation niku gurthunda…? 💭💖 manam flirting tho
+               Mana first conversation niku gurthunda…? 💭💖 manam flirting tho
               start cheskunam mana chatting gani talks gani idaram flirt
               cheskuntu, jokes veskuntu ala matladukunevalam 😄✨ Appudu adhi
               anthaa joke gane start chesam kani aa matalu, aa navvulu lopala
@@ -163,7 +175,7 @@ function BirthdayPage() {
               Anduke… nenu ninu nijam gane premincha 💖 Starting lo joke gane
               start cheskunam 😅 kani appudu teliyaledu… ide na life lo nijam
               ayipothundi ani, nuve na forever avuthavu ani 🫶❤️
-              */}
+            
             </p>
           </div>
 
@@ -171,7 +183,7 @@ function BirthdayPage() {
             <div className="date">😊 22 Dec 2024</div>
             <b>Our Happy Moments</b>
             <p>
-              {/*
+              
               Niku gurthunda…? 💭❤️ Manam first time idaram kalisi bayataki
               vellina aa kshanalu. Aa roju dating laga anukoni velam , Nehru
               Zoological Park ki kalisi vellam 🐾🌿 Aa roju ippatiki na heart lo
@@ -183,7 +195,7 @@ function BirthdayPage() {
               vishayam ardham ayyindi… Happiness place lo ledu 🌍❌ Na pakana
               unna manishi lo undi ❤️ Nitho unte chalu… **I am very happy** 😊💖
               Ee nijam aa roju nenu telusukunna 🫶
-              */}
+             
             </p>
           </div>
         </div>
@@ -222,7 +234,7 @@ function BirthdayPage() {
       {/* 💌 Message */}
       <section className="message">
         <h2>A Message From My Heart 💌</h2>
-       {/*  <p>{ {text} }</p> */}
+       <p> {text} </p> 
       </section>
 
       {/* 🎂 Cake */}
@@ -245,12 +257,13 @@ function BirthdayPage() {
 
       <section className="love-letter">
         <h2>A Letter Just for You 💌</h2>
-       {/*  <LoveLetter /> */}
+        <LoveLetter /> 
       </section>
-
+<div className="btn-container">
       <button className="see-wishes-btn" onClick={() => navigate("/wishes")}>
         See Your Wishes 💌
       </button>
+    </div>
     </div>
   );
 }
